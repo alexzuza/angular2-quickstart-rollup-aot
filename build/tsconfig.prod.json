@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmitHelpers":  true,
+    "lib": [ "es6", "dom" ],
+    "outDir": "../temp/app-prod-compiled"
+  },
+  "include": [
+    "../src-aot/**/*.ts",
+    "../src/**/*.ts"
+  ],
+  "exclude": [
+    "../src/main.ts"
+  ]
+}

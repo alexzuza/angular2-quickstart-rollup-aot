@@ -1,0 +1,10 @@
+npm-debug.log
+node_modules
+src-es5
+src-aot
+temp
+prod/app.min.js
+
+# IDE #
+.idea/
+.vscode
